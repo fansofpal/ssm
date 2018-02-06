@@ -6,13 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed9d2d80-c324-4d86-ba15-5254949353b3" name="Default" comment="增加两个前端页面">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="ed9d2d80-c324-4d86-ba15-5254949353b3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -472,7 +467,7 @@
       <option name="presentableId" value="Default" />
       <updated>1517812148211</updated>
       <workItem from="1517812152232" duration="11500000" />
-      <workItem from="1517896675880" duration="74000" />
+      <workItem from="1517896675880" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="一个简单的ssm框架，fork过来做测试用">
       <created>1517813438206</created>
@@ -488,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517826849065</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="忽略掉.idea">
+      <created>1517896769762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517896769762</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -512,7 +514,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11574000" />
+    <option name="totallyTimeSpent" value="11621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -560,7 +562,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="一个简单的ssm框架，fork过来做测试用" />
     <MESSAGE value="增加两个前端页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加两个前端页面" />
+    <MESSAGE value="忽略掉.idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略掉.idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,6 +778,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
