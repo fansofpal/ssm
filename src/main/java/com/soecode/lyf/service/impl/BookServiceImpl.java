@@ -34,7 +34,10 @@ public class BookServiceImpl implements BookService {
 
 	@Override
 	public Book getById(long bookId) {
-		return bookDao.queryById(bookId);
+		Book book = bookDao.queryById(bookId);
+		System.out.println("查询结果："+book);
+//		throw new RuntimeException("查询异常！");
+		return book;
 	}
 
 	@Override
