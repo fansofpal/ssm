@@ -1,5 +1,6 @@
 package com.soecode.lyf.dao;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
@@ -33,6 +34,18 @@ public class BookDaoTest extends BaseTest {
 		long bookId = 1000;
 		int update = bookDao.reduceNumber(bookId);
 		System.out.println("update=" + update);
+	}
+
+	@Test
+	public void insertBatch(){
+		List<Book> books = new ArrayList<>();
+		for(int i=1000000;i<2000000;i++){
+			Book book = new Book();
+			book.setName("测试数据"+i);
+			book.setNumber(i);
+			books.add(book);
+		}
+		bookDao.insertBatch(books);
 	}
 
 }

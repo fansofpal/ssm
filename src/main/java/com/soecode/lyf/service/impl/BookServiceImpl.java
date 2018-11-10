@@ -19,13 +19,15 @@ import com.soecode.lyf.exception.NoNumberException;
 import com.soecode.lyf.exception.RepeatAppointException;
 import com.soecode.lyf.service.BookService;
 
+import javax.annotation.Resource;
+
 @Service
 public class BookServiceImpl implements BookService {
 
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	// 注入Service依赖
-	@Autowired
+	@Resource
 	private BookDao bookDao;
 
 	@Autowired

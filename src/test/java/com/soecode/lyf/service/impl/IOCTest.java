@@ -17,7 +17,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class IOCTest {
 
     public static void main(String[] args){
-        ApplicationContext ctx = new ClassPathXmlApplicationContext(new String[]{"classpath:spring/spring-service.xml","classpath:spring/spring-dao.xml"});
+        ApplicationContext ctx = new ClassPathXmlApplicationContext(new String[]{
+                "classpath:spring/spring-service.xml"
+                ,"classpath:spring/spring-dao.xml"
+                ,"classpath:spring/spring-web.xml"});
         BookService bookService = (BookService) ctx.getBean("bookServiceImpl");
         long bookId = 1001;
         long studentId = 12345678910L;

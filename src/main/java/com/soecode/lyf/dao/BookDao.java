@@ -34,4 +34,6 @@ public interface BookDao {
 	 */
 	int reduceNumber(long bookId);
 
+	int insertBatch(List<Book> bookList);
+
 }
